@@ -8,28 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		807922741C651DE90067DAD2 /* EMPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 807922731C651DE90067DAD2 /* EMPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8079227B1C651DE90067DAD2 /* EMPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807922701C651DE90067DAD2 /* EMPageViewController.framework */; };
-		807922801C651DE90067DAD2 /* EMPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079227F1C651DE90067DAD2 /* EMPageViewControllerTests.swift */; };
 		8079228B1C651EE50067DAD2 /* EMPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079228A1C651EE50067DAD2 /* EMPageViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8079227C1C651DE90067DAD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 807922671C651DE90067DAD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8079226F1C651DE90067DAD2;
-			remoteInfo = EMPageViewController;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		807922701C651DE90067DAD2 /* EMPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		807922731C651DE90067DAD2 /* EMPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMPageViewController.h; sourceTree = "<group>"; };
 		807922751C651DE90067DAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8079227A1C651DE90067DAD2 /* EMPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8079227F1C651DE90067DAD2 /* EMPageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMPageViewControllerTests.swift; sourceTree = "<group>"; };
-		807922811C651DE90067DAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8079228A1C651EE50067DAD2 /* EMPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,14 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		807922771C651DE90067DAD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8079227B1C651DE90067DAD2 /* EMPageViewController.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				807922721C651DE90067DAD2 /* EMPageViewController */,
-				8079227E1C651DE90067DAD2 /* EMPageViewControllerTests */,
 				807922711C651DE90067DAD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				807922701C651DE90067DAD2 /* EMPageViewController.framework */,
-				8079227A1C651DE90067DAD2 /* EMPageViewControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,15 +53,6 @@
 				807922751C651DE90067DAD2 /* Info.plist */,
 			);
 			path = EMPageViewController;
-			sourceTree = "<group>";
-		};
-		8079227E1C651DE90067DAD2 /* EMPageViewControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				8079227F1C651DE90067DAD2 /* EMPageViewControllerTests.swift */,
-				807922811C651DE90067DAD2 /* Info.plist */,
-			);
-			path = EMPageViewControllerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,24 +87,6 @@
 			productReference = 807922701C651DE90067DAD2 /* EMPageViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		807922791C651DE90067DAD2 /* EMPageViewControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 807922871C651DE90067DAD2 /* Build configuration list for PBXNativeTarget "EMPageViewControllerTests" */;
-			buildPhases = (
-				807922761C651DE90067DAD2 /* Sources */,
-				807922771C651DE90067DAD2 /* Frameworks */,
-				807922781C651DE90067DAD2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8079227D1C651DE90067DAD2 /* PBXTargetDependency */,
-			);
-			name = EMPageViewControllerTests;
-			productName = EMPageViewControllerTests;
-			productReference = 8079227A1C651DE90067DAD2 /* EMPageViewControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,9 +100,6 @@
 					8079226F1C651DE90067DAD2 = {
 						CreatedOnToolsVersion = 7.2;
 						LastSwiftMigration = 0800;
-					};
-					807922791C651DE90067DAD2 = {
-						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
@@ -171,20 +116,12 @@
 			projectRoot = "";
 			targets = (
 				8079226F1C651DE90067DAD2 /* EMPageViewController */,
-				807922791C651DE90067DAD2 /* EMPageViewControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8079226E1C651DE90067DAD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		807922781C651DE90067DAD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,23 +139,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		807922761C651DE90067DAD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				807922801C651DE90067DAD2 /* EMPageViewControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8079227D1C651DE90067DAD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8079226F1C651DE90067DAD2 /* EMPageViewController */;
-			targetProxy = 8079227C1C651DE90067DAD2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		807922821C651DE90067DAD2 /* Debug */ = {
@@ -354,26 +275,6 @@
 			};
 			name = Release;
 		};
-		807922881C651DE90067DAD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = EMPageViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.erikmalyak.EMPageViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		807922891C651DE90067DAD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = EMPageViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.erikmalyak.EMPageViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -391,15 +292,6 @@
 			buildConfigurations = (
 				807922851C651DE90067DAD2 /* Debug */,
 				807922861C651DE90067DAD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		807922871C651DE90067DAD2 /* Build configuration list for PBXNativeTarget "EMPageViewControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				807922881C651DE90067DAD2 /* Debug */,
-				807922891C651DE90067DAD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
